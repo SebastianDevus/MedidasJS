@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(43, 42, 42);
+    color: wheat;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+input {
+    color: wheat;
+    background-color: rgb(73, 71, 71);
+}
+
+button {
+    color: rgb(243, 232, 211);
+    background-color: rgb(90, 89, 89);
+    border: none;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
