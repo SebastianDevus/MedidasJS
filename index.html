@@ -10,12 +10,17 @@
 <body>
     <h1>Conversor de Medidas</h1>
     <form>
-        <div>
-            <label for="medidaInserida">Digite a medida (em metros):</label>
-            <input id="medidaInserida" name="medidaInserida" type="number">
-        </div>
-        <button id="botaoConfirma" name="botaoConfirma" type="submit">Confirmar</button>
+        <label for="medidaInserida">Digite a medida (em metros):</label>
+        <input id="medidaInserida" name="medidaInserida" type="number">
     </form>
 
+    <div hidden="true" id="exibeMedidas">
+        <h3>Equivalências</h1>
+        <p id="exibeMedidaCm"></p>
+        <p id="exibeMedidaMetro"></p>
+        <p id="exibeMedidaKm"></p>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 </html>

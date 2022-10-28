@@ -3,8 +3,12 @@ body {
     color: wheat;
 }
 
-h1 {
+h1, h3 {
     color: whitesmoke;
+}
+
+input, label {
+    display: block;
 }
 
 input {
@@ -12,11 +16,7 @@ input {
     background-color: rgb(73, 71, 71);
 }
 
-button {
-    color: rgb(243, 232, 211);
-    background-color: rgb(90, 89, 89);
-    border: none;
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 20px;
+p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
